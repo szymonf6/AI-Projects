@@ -39,6 +39,9 @@ The SOC prediction model is a fully connected feed-forward neural network with t
 - Hidden Layer: 128 units with ReLU activation.
 - Output Layer: 1 output representing the predicted SOC.
 
+## SOH Prediction Model
+The SOH prediction model is a linear neural network with three layers and ReLU.
+
 # Training the Model
 To train the model, use the provided train_soc_model.py script. This script:
 
